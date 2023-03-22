@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+html, body {
+    min-height: 100vh;
+    background: linear-gradient(to right, #ffffff, #eeeeee);
+}
+
+header {
+    background: linear-gradient(to right, #000000, #313131, #555555, #838383);
+    width: 1330px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+h1#hum {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    color: #ffffff;
+    
+}
+p#p1 {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #0000ff;
+}
+
+a:hover {
+    color: #00ff00;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #000000;
+    border-radius: 10px;
+    height: 160px;
+}
+
+p#oi {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+section {
+    font-family: cursive;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 2.6vw;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+p#p2 {
+    color: #ffffff;
+}
+
+p#p2:hover {
+    font-size: 30px;
+    color: #ffff00;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+    background: linear-gradient(to top, red, yellow);
+}
+
+    ::-webkit-scrollbar-thumb{
+        background: linear-gradient(to top, aqua, blue); 
+}
+
+header > h1 {
+    padding-top: 50px;
+}
+
+section.normal {
+    background: linear-gradient(to right, #efefef, #cccccc, #999999);
+}
+
+section.img {
+    background-color: #7e7e7e;
+    color: #ffffff;
+    box-shadow: inset 6px 6px 13px 0px #00000096;
+    background-attachment: fixed;
+}
+
+section#img01 {
+    background-image: url("background001.jpg");
+    background-size: cover;
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url('background002.jpg');
+    background-size: cover;
+}
+
+a#am:hover {
+    font-size: 80px;
+} /*oi */
+
+p#p02 {
+    color: #ffffff;
+    font-size: 20px;
+}
