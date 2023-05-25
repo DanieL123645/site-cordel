@@ -67,11 +67,13 @@ p#p2:hover {
 
 ::-webkit-scrollbar{
     width: 15px;
-    background: linear-gradient(to top, red, yellow);
+    background: white;
+    border: 2px solid black;
 }
 
     ::-webkit-scrollbar-thumb{
-        background: linear-gradient(to top, aqua, blue); 
+        background: #b8b8b8;
+        border: 2px solid black;
 }
 
 header > h1 {
